@@ -1,0 +1,49 @@
+Link de estudo
+https://www.notion.so/Mission-Origin-003847efca1f4d8f938beb5c4f6a3578
+
+Instalar
+- Google Chrome;
+- Visual Studio Code.
+
+Layout da aplicação
+https://www.figma.com/community/file/1009807319507822993
+
+Extensões VSCode
+- Bracket Pair Colorizer
+- Live Server
+- Material Icon Theme
+- Omni Theme
+- Prettier
+
+settings.json
+{
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "workbench.colorTheme": "Omni",
+    "workbench.iconTheme": "material-icon-theme",
+    // no vídeo você viu uma config de fonte aqui, 
+		// mas ela não é compatível com todos os sistemas, por isso, tirei ok?
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "workbench.editor.tabSizing": "shrink",
+    "explorer.compactFolders": false,
+    "window.zoomLevel": 1,
+
+    // formatter
+    "prettier.tabWidth": 2,
+    "prettier.semi": false, 
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none", 
+    "prettier.arrowParens": "avoid",
+    "prettier.endOfLine": "auto",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+}
